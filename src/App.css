@@ -1,0 +1,45 @@
+.hero-section {
+  background-image: url('./src/assets/images/hero.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 75vh;
+  width: 100%;
+}
+
+.mother-section {
+  background-image: url('./src/assets/images/hero2.png');
+  background-size: cover;
+  background-position: center;
+  height: 80vh;
+  width: 100%;
+}
+
+.watch-section {
+  background-image: url('./src/assets/images/hero4.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 80vh;
+  width: 100%;
+}
+
+.grid-section {
+  background-color: red;
+  height: 75vh;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+}
+
+
+/* .grid1{
+  background-image: url('./src/assets/images/grid1.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.grid2{
+  background-image: url('./src/assets/images/grid2.jpg');
+  background-size: cover;
+  background-position: center;
+} */
+
