@@ -7,7 +7,7 @@ const Grid = () => {
         {
             title:"MacBook Air",
             subtitle:"Sky blue colour. Sky high performance with M4.",
-            image: "./src/assets/images/grid1.jpg",
+            image: "/assets/images/grid1.jpg",
             buttons: [
                 { text: "Learn more ", variant: "primary" },
                 { text: "Buy", variant: "secondary" },
@@ -16,7 +16,7 @@ const Grid = () => {
         {
             title:" WATCH",
             subtitle:"Show your stipes with the new edition Sport Band",
-            image: "./src/assets/images/grid2.jpg",
+            image: "/assets/images/grid2.jpg",
             buttons: [
                 { text: "Buy", variant: "primary" }
               ],
@@ -24,7 +24,7 @@ const Grid = () => {
         {
             title:"iPad Air",
             subtitle:"Now supercharged by the M3 chip",
-            image: "./src/assets/images/grid3.jpg",
+            image: "/assets/images/grid3.jpg",
             buttons: [
                 { text: "Learn more", variant: "primary" },
                 { text: "Buy", variant: "secondary" },
@@ -33,7 +33,7 @@ const Grid = () => {
         {
             title:"Mac Book Pro",
             subtitle:"A work of Smart",
-            image: "./src/assets/images/grid4.jpg",
+            image: "/assets/images/grid4.jpg",
             textColor: "text-white",
             buttons: [
                 { text: "Learn more", variant: "primary" },
@@ -43,7 +43,7 @@ const Grid = () => {
         {
             title:"Air Pods 4",
             subtitle:"Iconi. Now supersonic. Available with Active Noise cancellation",
-            image: "./src/assets/images/grid5.jpg",
+            image: "/assets/images/grid5.jpg",
             textColor: "text-white",
             textPosition: "justify-end", 
             buttons: [
@@ -54,7 +54,7 @@ const Grid = () => {
         {
             title:"  Trade In",
             subtitle:"Upgrade and save it's that easy",
-            image: "./src/assets/images/grid6.jpg",
+            image: "/assets/images/grid6.jpg",
             buttons: [
                 { text: "Get your estimate", variant: "primary" },
               ],

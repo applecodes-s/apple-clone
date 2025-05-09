@@ -1,5 +1,5 @@
 .hero-section {
-  background-image: url('./src/assets/images/hero.jpg');
+  background-image: url('/assets/images/hero.jpg');
   background-size: cover;
   background-position: center;
   height: 75vh;
@@ -7,7 +7,7 @@
 }
 
 .mother-section {
-  background-image: url('./src/assets/images/hero2.png');
+  background-image: url('/assets/images/hero2.png');
   background-size: cover;
   background-position: center;
   height: 80vh;
@@ -15,7 +15,7 @@
 }
 
 .watch-section {
-  background-image: url('./src/assets/images/hero4.jpg');
+  background-image: url('/assets/images/hero4.jpg');
   background-size: cover;
   background-position: center;
   height: 80vh;
