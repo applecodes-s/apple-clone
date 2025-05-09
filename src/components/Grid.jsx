@@ -1,6 +1,8 @@
 import React from 'react'
 import '../App'
 import Button from './Button'
+import '@fortawesome/fontawesome-free/css/all.min.css';
+
 
 const Grid = () => {
     const gridBox = [
@@ -14,7 +16,8 @@ const Grid = () => {
               ],
         },
         {
-            title:" WATCH",
+            icon: <i className="fab fa-apple"></i>,
+            title:"WATCH",
             subtitle:"Show your stipes with the new edition Sport Band",
             image: "/assets/images/grid2.jpg",
             buttons: [
@@ -52,7 +55,8 @@ const Grid = () => {
               ],
         },
         {
-            title:"  Trade In",
+            icon: <i className="fab fa-apple"></i>,
+            title:"Trade In",
             subtitle:"Upgrade and save it's that easy",
             image: "/assets/images/grid6.jpg",
             buttons: [
@@ -69,7 +73,8 @@ const Grid = () => {
             className={`grid-section flex flex-col items-center text-center p-6 sm:p-10 md:p-16 lg:p-20 ${box.textColor} ${box.textPosition}`}
             style={{ backgroundImage: `url(${box.image})`}}
             > 
-            <h1 className='text-3xl sm:text-3xl md:text-5xl font-semibold'>{box.title}</h1>
+
+            <h1 className='text-3xl sm:text-3xl md:text-5xl font-semibold'>{box.icon} {box.title}</h1>
             <p className='text-sm sm:text-sm md:text-lg  font-normal mt-2 w-3/4'>{box.subtitle} </p>
             <div className="flex  gap-4 mt-4  justify-center">
                 {box.buttons.map((btn, i) => (

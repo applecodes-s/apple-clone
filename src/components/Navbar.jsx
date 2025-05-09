@@ -60,7 +60,7 @@ function Navbar() {
         <nav className="bg-gray-950 text-white px-4 py-2 fixed top-0 w-full z-10">
   <div className="max-w-screen-xl mx-auto flex items-center justify-between">
     {/* Apple logo */}
-    <h1 className="text-2xl font-semibold mr-3"></h1>
+    <h1 className="text-2xl"><i className="fab fa-apple"></i></h1>
 
     {/* Navigation links */}
     <ul className="hidden sm:flex gap-6 md:gap-10 text-xs text-gray-300 items-center">
